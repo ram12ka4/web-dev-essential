@@ -1,0 +1,21 @@
+var req = $
+			.ajax({
+				url : 'transfer.do',
+				type : 'post',
+				datatype : 'text',
+				data : {
+					ACTION : 'GET_PREV_TRANSFER_RECORD'
+				},
+				success : function(data) {
+					alert('success');
+          ---- do anything here
+				},
+				failure : function(data) {
+					alert("failure");
+					alert(data.responseText);
+				},
+				error : function(data) {
+					alert("error");
+					alert(data.responseText);
+				}
+			});
