@@ -1,0 +1,8 @@
+
+1.  display:none property vs visibility: hidden
+    
+    <div id="divCheckbox" style="display: none;">
+
+    visibility: hidden hides the element, but it still takes up space in the layout.
+
+    display: none removes the element completely from the document, it doesn't take up any space.
