@@ -1,0 +1,4 @@
+ 
+ select distinct EHR_DTL_CODE, to_char(EHR_CRT_DT, 'dd-MON-yyyy hh:mi AM') as previous_date,  EHR_CRT_DT
+    from emr_health_record where EHR_ATTRB_CODE in (select EAM_ATTRB_CODE from EMR_ATTRIBUTE_MASTER where EAM_ATTRB_TYPE = 'TSNS') 
+    order by EHR_CRT_DT desc;
