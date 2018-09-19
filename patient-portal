@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>patient portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="css/emp-portal.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <img alt="logo" src="https://images.unsplash.com/photo-1537319064867-3163638edd4b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ebd7b76773b6cc67e93d5adfc2da9aee&auto=format&fit=crop&w=500&q=60"/>
+      <div class="title"><div id="title-value">Patient care portal<hr></div></div>
+      <div class="sub-title">Welcome to GNRC<hr></div>
+      <div class="child-wrapper">
+        <div class="item">
+          <a class="btn" href="#"><img src="https://images.unsplash.com/photo-1537326674031-99287e464df2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52f644af779a07f3d034cf9aea4bbf4e&auto=format&fit=crop&w=500&q=60"/></a>
+          <p>Click Me</p>
+        </div>
+          <div class="item">
+          <a class="btn" href="#"><img src="https://images.unsplash.com/photo-1537326674031-99287e464df2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52f644af779a07f3d034cf9aea4bbf4e&auto=format&fit=crop&w=500&q=60"/></a>
+          <p>Click Me</p>
+        </div>
+          <div class="item">
+          <a class="btn" href="#"><img src="https://images.unsplash.com/photo-1537326674031-99287e464df2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52f644af779a07f3d034cf9aea4bbf4e&auto=format&fit=crop&w=500&q=60"/></a>
+          <p>Click Me</p>
+        </div>
+        <div class="item">
+          <a class="btn" href="#"><img src="https://images.unsplash.com/photo-1537326674031-99287e464df2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52f644af779a07f3d034cf9aea4bbf4e&auto=format&fit=crop&w=500&q=60"/></a>
+          <p>Click Me</p>
+        </div>
+        <div class="item">
+          <a class="btn" href="#"><img src="https://images.unsplash.com/photo-1537326674031-99287e464df2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52f644af779a07f3d034cf9aea4bbf4e&auto=format&fit=crop&w=500&q=60"/></a>
+          <p>Click Me</p>
+        </div>
+        <div class="item">
+          <a class="btn" href="#"><img src="https://images.unsplash.com/photo-1537326674031-99287e464df2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=52f644af779a07f3d034cf9aea4bbf4e&auto=format&fit=crop&w=500&q=60"/></a>
+          <p>Click Me</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+@charset'UTF-8';
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+
+  border: 20px solid #bdc3c7;
+  max-width: 800px;
+  width: 80%;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: Source Sans Pro;
+}
+
+img {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  width: 25%;
+}
+
+.title {
+	height: 135px;
+	display: table;
+	padding: 5px;
+	overflow: hidden;
+  position: relative;
+  clear: right;
+  
+  font-size: 3em;
+  font-weight: 700;
+}
+
+#title-value {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+
+.sub-title {
+  display: block;
+  width: 75%;
+  position: relative;
+  overflow: hidden;
+  clear: left;
+  left: 205px;
+  top: -42px;
+  font-weight: 300;
+  font-size: 1.5em;
+
+}
+
+.child-wrapper {
+  
+  overflow: hidden;
+}
+
+.item {
+  position: relative;
+  width: 15%;
+  margin: 2% 5%;
+  float: left;
+  text-align: center;
+  outline: none;
+  letter-spacing: 2px;
+  display: block;
+}
+
+
+.item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px #bdc3c7;
+  cursor: pointer;
+}
+
+.item img:hover {
+	box-shadow: 0 2px #bdc3c7;	
+	top: 2px;
+}
+
+.item img:active {
+	box-shadow: none;	
+	top: 4px;
+}
+
+hr { border: 0; height: 1px; background: #333; background-image: linear-gradient(to right, #ccc, #333, #ccc); }
